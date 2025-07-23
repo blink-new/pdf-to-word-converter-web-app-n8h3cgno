@@ -1,0 +1,25 @@
+# Multi-Tool Document Converter Backend Requirements
+
+# Core Flask dependencies
+Flask==2.3.3
+Flask-CORS==4.0.0
+Werkzeug==2.3.7
+
+# PDF to Word conversion - RELIABLE LIBRARY
+pdf2docx==0.5.6
+
+# PDF manipulation
+PyPDF2==3.0.1
+
+# Image processing and PDF generation
+Pillow==10.0.1
+reportlab==4.0.4
+
+# File handling and utilities
+pathlib2==2.3.7.post1
+
+# Security
+secure-filename==0.1
+
+# Optional: For better error handling
+python-magic==0.4.27
